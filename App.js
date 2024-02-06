@@ -1,8 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import BottomTabNavigator from './screens/BottomTabNavigator';
-import Tweets from './screens/Tweets';
+import BottomTabNavigator from './src/navigation/BottomTabNavigator';
+
+
 
 export default function App()
 {
